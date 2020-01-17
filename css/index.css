@@ -230,3 +230,50 @@ button {
    padding: 10px;
    margin: 10px;
 }
+
+/* Contact.html */
+
+
+#ContactHD {
+
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 14s; /* Safari 4.0 - 8.0 */
+    animation-name: hudini;
+    animation-duration: 14s;
+
+}
+
+@-webkit-keyframes hudini {
+
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+@keyframes hudini {
+
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+.contactForms {
+
+    position: relative;
+    left: 25%;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contactB {
+
+    width: 100%;
+
+    height: 250px;
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+
+} 
