@@ -34,30 +34,42 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic markup is basically html that is readable to both the computer and the developer that reads it.  For instance, instead of using just <div> which is very vague, you can add <section>, <p>, <head>,<title>, etc which are much more understandable.  Using such tags gives meaning to the html code making it easier for others to understand, you may even save time commenting every section (or at least making the comments less in volume).
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+block makes a new line, inline doesn't.
 
 3. What are the 4 areas of the box model?
 
+Content, padding, border, margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+ The x axis.
+
 5. Explain why git is valuable to a team of developers.
+
+You can share work, compare work, create your own version, go back to previous points in history within code, etc.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [ x ] Create a forked copy of this project.
+- [ x ] Add your project manager as collaborator on Github.
+- [ x ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [ x ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ x ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [ x ] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [ x ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ x ] Add your project manager as a reviewer on the pull-request
+- [ x ] Your project manager will count the project as complete by merging the branch back into master.
  
 
 
