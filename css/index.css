@@ -1,146 +1,279 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+* {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    max-width: 100%;
+
+
 }
 
-* {
-    box-sizing: border-box;
+
+
+.container{
+
+    
+   width: 1000px;
+   margin: 0 auto;
+   padding: 0;
+
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
+
+.navflex {
+    word-spacing: 7rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-bottom: 2%;
 }
 
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
+nav {
+    margin: 0;
 }
 
-p {
-    line-height: 1.4;
+
+a {
+    color: black;
+    text-decoration: none; 
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
 
 .top-content {
+
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+
+.text-container {
+
+margin: 1px;   
+border-bottom: 1px dotted black; 
+
+}
+
+.about-text-container {
+
+    justify-content: space-between;
+    border-bottom: 1px dotted black;
+    margin: 1rem;
+
+
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+
+    margin: 15px;
+
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
+.boxes {
 
-.middle-content .boxes {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+
+ 
+    
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
+.boxes .box1, .box2 {
+
+      padding: 30px;
+      margin: 10px;
+
+
+
+}
+
+.boxescol1, .boxescol2, #aboutcol1, #aboutcol2 {
+
+display: flex;
+justify-content: space-between;
+
+
+
+
+}
+
+.bottom-content, .letsworkabout {
+
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+.stylinfoot  {
+
+    background-color: black;
+  padding: 25px;
+  margin: 10px;
+    width: 100%;
+
+
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+#jumbo, .aboutpic {
+
+    display: block;
+	margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.aboutpic {
+
+    width: 95%;
+
+}
+
+#aboutpic {
+
+    width: 100%;
+}
+
+#logo {
+
+    justify-content: left;
+
+
 }
 
 footer {
+
+    word-spacing: 20px;
+
     width: 100%;
-    background: black;
+
 }
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
+footer a {
 
-footer nav a {
+
     color: white;
-    text-decoration: none;
+
+
 }
+
+
+h2 {
+
+    font-weight: 300;
+    font-size: large;
+    margin-bottom: 1rem;
+
+}
+
+p {
+
+    font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+
+#bx1{
+
+    background-color: teal;
+}
+
+#bx2 {
+
+    background-color: gold;
+
+
+}
+
+#bx3 {
+
+    background-color: cadetblue;
+    
+}#bx4 {
+
+    background-color: coral;
+    
+}#bx5 {
+
+    background-color: crimson;
+    
+}#bx6 {
+
+    background-color: forestgreen;
+
+}#bx7 {
+
+    background-color: darkorchid;
+}#bx8 {
+
+    background-color: hotpink;
+}
+
+#bx9 {
+
+    background-color: indigo;
+}#bx10 {
+
+    background-color: dodgerblue;
+    
+}
+
+.about-top, .about-middle {
+
+    display: flex;
+}
+
+button {
+   background-color: white;
+   border: 1px solid black;
+   border-radius:   10px;
+   padding: 10px;
+   margin: 10px;
+}
+
+/* Contact.html */
+
+
+#ContactHD {
+
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 14s; /* Safari 4.0 - 8.0 */
+    animation-name: hudini;
+    animation-duration: 14s;
+
+}
+
+@-webkit-keyframes hudini {
+
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+@keyframes hudini {
+
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+.contactForms {
+
+    position: relative;
+    left: 25%;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contactB {
+
+    width: 100%;
+
+    height: 250px;
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+
+} 
